@@ -5,6 +5,7 @@
     Author: Aldo Núñez
     
 '''
+
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -70,8 +71,6 @@ def fft(df):
     plt.grid(True)
     plt.show()
 
-
-
 def remove_offset(df):
     START = 0;
     T_S = 4e-3
@@ -85,7 +84,6 @@ def remove_offset(df):
     accelerometer['acc-offset'] = accelerometer['acc'] - offset
 
     return accelerometer
-
 
 def main():
     df = read_csv_from_command_line()
