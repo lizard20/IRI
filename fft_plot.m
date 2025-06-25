@@ -1,5 +1,3 @@
-#!/usr/bin/env octave
-
 % Program to plot FFT. 
 % Data  are read from a csv file
 % Author: Aldo Núñez
