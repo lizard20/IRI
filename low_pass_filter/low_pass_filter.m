@@ -11,5 +11,5 @@ function x_lpf = low_pass_filter(x, alpha)
       init = 1;
     end
 
-    x_lpf = alpha *prev_x + (1 - alpha) * x;
+    x_lpf = alpha * prev_x + (1 - alpha) * x;
     prev_x = x_lpf;
