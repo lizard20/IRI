@@ -1,7 +1,7 @@
 clear all; close all;
 
 % read csv file
-data = dlmreada('IRI_prueba24.csv',',',1, 0);
+data = dlmread('../csv_files/IRI_prueba24.csv',',',1, 0);
 
 acc = data(:,1);   % accelerometer raw data
 n_samples = length(data);
