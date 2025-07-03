@@ -14,6 +14,11 @@
 <img src="kalman/filter_data.png" width="600" height="400">
 </p>
 
+<p align="center">
+<img src="kalman/filter_data_2.png" width="600" height="400">
+</p>
+
+
 
 
 
