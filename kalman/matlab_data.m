@@ -5,7 +5,7 @@
 %    Author: Aldo Nunez
 
 % read data
-filename = '../csv_files/IRIprueba24.txt';
+filename = 'IRIprueba24.txt';
 accel = readtable(filename);
 
 % accelerometer raw data
